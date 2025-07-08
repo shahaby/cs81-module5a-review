@@ -46,3 +46,4 @@ console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
 
 
 // New test
+console.log("Number of focused sessions:", countMood(hobbyLog, "focused"));
