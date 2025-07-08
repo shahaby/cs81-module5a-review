@@ -33,8 +33,16 @@ function countMood(log, moodType) {
   return log.filter(entry => entry.mood === moodType).length;
 }
 
-// Example usage:
+// Example usage
 console.log("Total time spent:", totalTime(hobbyLog), "minutes");
 console.log("Unique hobbies:", uniqueHobbies(hobbyLog));
 console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+
+// Suggestion: 
+// Consider creating a single function to replace separate fuctions like countMood() and longSessions().
+// We can call this new genetic function aggragateLog() which takes in log and options as input parameters and returns the aggregate.
+// This adds to reusability and makes it easy to add new features to the program.
+
+
+// New test
