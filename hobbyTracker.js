@@ -1,3 +1,5 @@
+// https://github.com/shahaby/cs81-module5a-review
+
 // Array of objects storing hobby log entries
 const hobbyLog = [
   { day: "Monday", hobby: "drawing", minutes: 30, mood: "focused" },
